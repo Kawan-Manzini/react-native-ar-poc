@@ -4,18 +4,26 @@
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
+    "generate": "npx react-native eject",
+    "android": "react-native run-android",
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native/metro-config": "^0.73.2",
+    "@types/react": "^18.2.38",
+    "@viro-community/react-viro": "^2.23.0",
     "expo": "~49.0.15",
     "expo-status-bar": "~1.6.0",
+    "invariant": "^2.2.4",
     "react": "18.2.0",
-    "react-native": "0.72.6"
+    "react-native": "0.72.6",
+    "react-viro": "^2.17.0",
+    "typescript": "^5.3.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "react-native-eject": "^0.2.0"
   },
   "private": true
 }

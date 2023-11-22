@@ -1,4 +1,6 @@
 {
+  "name": "EjectDemo",
+  "displayName": "EjectDemo",
   "expo": {
     "name": "AwesomeProject",
     "slug": "AwesomeProject",
